@@ -243,10 +243,6 @@ export function ViewerStage({
             </div>
 
             <div className="special-intro-copy">
-              <span className={`special-intro-chip${isSpecialIntroTitleVisible ? " is-visible" : ""}`}>
-                {currentEntry.question.special}
-              </span>
-
               <div className="special-intro-title-wrap">
                 <span className={`special-intro-kicker${isSpecialIntroTitleVisible ? " is-visible" : ""}`}>
                   Спецвопрос
@@ -257,9 +253,7 @@ export function ViewerStage({
                 </h2>
               </div>
 
-              <p className={`special-intro-text${isSpecialIntroMetaVisible ? " is-visible" : ""}`}>
-                Команда передает вопрос соперникам. Ведущий открывает вопрос пробелом.
-              </p>
+            
 
               <div className={`special-intro-meta${isSpecialIntroMetaVisible ? " is-visible" : ""}`}>
                 <span className="special-intro-meta-chip">{currentEntry.category.title}</span>

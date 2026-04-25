@@ -136,7 +136,7 @@ export default function JeopardyGame() {
     >
       <div className="presentation-topbar">
         {isSpecialIntroActive ? (
-          <div className="presentation-award-hint">Кот в мешке: выберите команду и нажмите пробел.</div>
+          <div className="presentation-award-hint">Кот в мешке: выберите команду</div>
         ) : answerShown && hasTeams ? (
           <div className="presentation-award-hint">
             {awardedTeamId
