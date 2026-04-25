@@ -1,0 +1,2024 @@
+{
+  "1": [
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag5.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride1.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide2.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide1.xml"
+    }
+  ],
+  "2": [
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag6.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride2.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image4.png"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide2.xml"
+    }
+  ],
+  "3": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image5.jpeg"
+    },
+    {
+      "id": "rId13",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "slide",
+      "target": "slide5.xml"
+    },
+    {
+      "id": "rId12",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag7.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride3.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide4.xml"
+    },
+    {
+      "id": "rId11",
+      "type": "image",
+      "target": "../media/image8.jpeg"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId10",
+      "type": "image",
+      "target": "../media/image7.jpeg"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide3.xml"
+    },
+    {
+      "id": "rId9",
+      "type": "image",
+      "target": "../media/image6.jpeg"
+    }
+  ],
+  "4": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag8.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride4.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image10.jpeg"
+    },
+    {
+      "id": "rId5",
+      "type": "slide",
+      "target": "slide13.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide4.xml"
+    }
+  ],
+  "5": [
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag9.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride5.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide5.xml"
+    }
+  ],
+  "6": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image15.png"
+    },
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image14.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide6.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout17.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image13.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image12.svg"
+    },
+    {
+      "id": "rId10",
+      "type": "image",
+      "target": "../media/image17.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image11.png"
+    },
+    {
+      "id": "rId9",
+      "type": "image",
+      "target": "../media/image16.png"
+    }
+  ],
+  "7": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image19.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image18.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout20.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "8": [
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag10.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride6.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide12.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "slide",
+      "target": "slide11.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide7.xml"
+    }
+  ],
+  "9": [
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "tags",
+      "target": "../tags/tag11.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "themeOverride",
+      "target": "../theme/themeOverride7.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image20.jpeg"
+    },
+    {
+      "id": "rId4",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide8.xml"
+    }
+  ],
+  "10": [
+    {
+      "id": "rId3",
+      "type": "hyperlink",
+      "target": "https://emedicine.medscape.com/article/2087757-overview"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide9.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image22.jpeg"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image21.jpeg"
+    }
+  ],
+  "11": [
+    {
+      "id": "rId3",
+      "type": "hyperlink",
+      "target": "https://emedicine.medscape.com/article/121187-overview"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide10.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image22.jpeg"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image21.jpeg"
+    }
+  ],
+  "12": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide11.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag12.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "13": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide12.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag13.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image23.png"
+    }
+  ],
+  "14": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide13.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag14.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "15": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide14.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag15.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image24.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "16": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image25.jpeg"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide15.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout7.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "17": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide16.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag16.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "18": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide17.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag17.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image26.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "19": [
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image27.jpeg"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    }
+  ],
+  "20": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide18.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag18.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "21": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide19.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag19.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image28.jpeg"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "22": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image28.jpeg"
+    },
+    {
+      "id": "rId2",
+      "type": "hyperlink",
+      "target": "https://emedicine.medscape.com/article/2172220-overview"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image29.jpeg"
+    }
+  ],
+  "23": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image29.jpeg"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image28.jpeg"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    }
+  ],
+  "24": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide20.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag20.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "25": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide21.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image31.jpeg"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag21.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image30.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "26": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide22.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag22.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "slide",
+      "target": "slide3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image2.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "27": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide23.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag23.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "28": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide24.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag24.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "29": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image33.svg"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image37.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image32.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout7.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image36.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image35.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image34.png"
+    }
+  ],
+  "30": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image40.png"
+    },
+    {
+      "id": "rId3",
+      "type": "chart",
+      "target": "../charts/chart2.xml"
+    },
+    {
+      "id": "rId7",
+      "type": "chart",
+      "target": "../charts/chart4.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "chart",
+      "target": "../charts/chart1.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout7.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "chart",
+      "target": "../charts/chart3.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image39.png"
+    },
+    {
+      "id": "rId10",
+      "type": "image",
+      "target": "../media/image41.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image38.png"
+    },
+    {
+      "id": "rId9",
+      "type": "chart",
+      "target": "../charts/chart5.xml"
+    }
+  ],
+  "31": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image45.png"
+    },
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image42.png"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image44.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide25.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image43.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image33.svg"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image32.png"
+    },
+    {
+      "id": "rId9",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "32": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide26.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag25.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "33": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image46.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    }
+  ],
+  "34": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide27.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    }
+  ],
+  "35": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image52.png"
+    },
+    {
+      "id": "rId13",
+      "type": "hdphoto",
+      "target": "../media/hdphoto1.wdp"
+    },
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image47.png"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image51.png"
+    },
+    {
+      "id": "rId12",
+      "type": "image",
+      "target": "../media/image56.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide28.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image50.png"
+    },
+    {
+      "id": "rId11",
+      "type": "image",
+      "target": "../media/image55.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image49.png"
+    },
+    {
+      "id": "rId15",
+      "type": "image",
+      "target": "../media/image58.svg"
+    },
+    {
+      "id": "rId10",
+      "type": "image",
+      "target": "../media/image54.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image48.png"
+    },
+    {
+      "id": "rId9",
+      "type": "image",
+      "target": "../media/image53.png"
+    },
+    {
+      "id": "rId14",
+      "type": "image",
+      "target": "../media/image57.png"
+    }
+  ],
+  "36": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide29.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag26.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "37": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide30.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout7.xml"
+    }
+  ],
+  "38": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide31.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag27.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "39": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image64.png"
+    },
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image59.png"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image63.svg"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide32.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout7.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image62.png"
+    },
+    {
+      "id": "rId11",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image61.png"
+    },
+    {
+      "id": "rId10",
+      "type": "image",
+      "target": "../media/image66.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image60.png"
+    },
+    {
+      "id": "rId9",
+      "type": "image",
+      "target": "../media/image65.png"
+    }
+  ],
+  "40": [
+    {
+      "id": "rId8",
+      "type": "image",
+      "target": "../media/image72.png"
+    },
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image67.png"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image71.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide33.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout13.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image70.png"
+    },
+    {
+      "id": "rId11",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image69.png"
+    },
+    {
+      "id": "rId10",
+      "type": "image",
+      "target": "../media/image74.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image68.png"
+    },
+    {
+      "id": "rId9",
+      "type": "image",
+      "target": "../media/image73.png"
+    }
+  ],
+  "41": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide34.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag28.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "42": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image76.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image75.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "43": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide35.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag29.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "44": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide36.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag30.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image77.png"
+    }
+  ],
+  "45": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide37.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag31.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "46": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image79.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image78.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "47": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide38.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag32.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "48": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide39.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag33.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image81.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image80.png"
+    }
+  ],
+  "49": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide40.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag34.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "50": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide41.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag35.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image82.png"
+    },
+    {
+      "id": "rId4",
+      "type": "chart",
+      "target": "../charts/chart6.xml"
+    }
+  ],
+  "51": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide42.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag36.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId4",
+      "type": "chart",
+      "target": "../charts/chart7.xml"
+    }
+  ],
+  "52": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide43.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout12.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag37.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image3.png"
+    }
+  ],
+  "53": [
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image3.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    }
+  ],
+  "54": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide44.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag38.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "55": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image83.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "56": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide45.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag39.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "57": [
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "58": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image84.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "59": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image85.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "60": [
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "61": [
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "62": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide46.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag40.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "63": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image86.jpeg"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "64": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image87.jpeg"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout2.xml"
+    }
+  ],
+  "65": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide47.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag41.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "66": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide48.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout20.xml"
+    }
+  ],
+  "67": [
+    {
+      "id": "rId3",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "media",
+      "target": "../media/media1.mp4"
+    },
+    {
+      "id": "rId1",
+      "type": "video",
+      "target": "NULL"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image88.png"
+    }
+  ],
+  "68": [
+    {
+      "id": "rId3",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide49.xml"
+    },
+    {
+      "id": "rId2",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout25.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "tags",
+      "target": "../tags/tag42.xml"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image9.png"
+    }
+  ],
+  "69": [
+    {
+      "id": "rId3",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "image",
+      "target": "../media/image89.png"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    }
+  ],
+  "70": [
+    {
+      "id": "rId3",
+      "type": "hyperlink",
+      "target": "https://doi.org/10.1093/eurheartj/ehac015"
+    },
+    {
+      "id": "rId7",
+      "type": "image",
+      "target": "../media/image9.png"
+    },
+    {
+      "id": "rId2",
+      "type": "notesSlide",
+      "target": "../notesSlides/notesSlide50.xml"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout19.xml"
+    },
+    {
+      "id": "rId6",
+      "type": "image",
+      "target": "../media/image92.png"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image91.jpeg"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image90.png"
+    }
+  ],
+  "71": [
+    {
+      "id": "rId3",
+      "type": "hyperlink",
+      "target": "https://emedicine.medscape.com/article/349040-overview"
+    },
+    {
+      "id": "rId2",
+      "type": "hyperlink",
+      "target": "https://www.medscape.com/viewarticle/941019"
+    },
+    {
+      "id": "rId1",
+      "type": "slideLayout",
+      "target": "../slideLayouts/slideLayout15.xml"
+    },
+    {
+      "id": "rId5",
+      "type": "image",
+      "target": "../media/image94.jpeg"
+    },
+    {
+      "id": "rId4",
+      "type": "image",
+      "target": "../media/image93.jpeg"
+    }
+  ]
+}

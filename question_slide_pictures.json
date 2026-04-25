@@ -1,0 +1,523 @@
+[
+  {
+    "slide": 1,
+    "pictures": [
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 5499514,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image3.png",
+        "name": "Рисунок 16",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 3,
+    "pictures": [
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 5499514,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId8",
+        "target": "../media/image5.jpeg",
+        "name": "Рисунок 12",
+        "x": 2060185,
+        "y": 2570224,
+        "cx": 2324497,
+        "cy": 1550244
+      },
+      {
+        "rid": "rId9",
+        "target": "../media/image6.jpeg",
+        "name": "Рисунок 13",
+        "x": 7807317,
+        "y": 2567915,
+        "cx": 2324497,
+        "cy": 1550990
+      },
+      {
+        "rid": "rId10",
+        "target": "../media/image7.jpeg",
+        "name": "Picture 2",
+        "x": 2060185,
+        "y": 4931770,
+        "cx": 2352552,
+        "cy": 1538884
+      },
+      {
+        "rid": "rId11",
+        "target": "../media/image8.jpeg",
+        "name": "Picture 4",
+        "x": 7807317,
+        "y": 4922109,
+        "cx": 2324497,
+        "cy": 1548545
+      },
+      {
+        "rid": "rId12",
+        "target": "../media/image9.png",
+        "name": "Рисунок 1",
+        "x": -1660,
+        "y": 0,
+        "cx": 458683,
+        "cy": 458683
+      },
+      {
+        "rid": "rId13",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "pictures": [
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 5499514,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image3.png",
+        "name": "Рисунок 1",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "pictures": [
+      {
+        "rid": "rId7",
+        "target": "../media/image9.png",
+        "name": "Рисунок 1",
+        "x": 0,
+        "y": 0,
+        "cx": 458683,
+        "cy": 458683
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      },
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 6111764,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image9.png",
+        "name": "Рисунок 4",
+        "x": 0,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      },
+      {
+        "rid": "rId5",
+        "target": "../media/image9.png",
+        "name": "Рисунок 4",
+        "x": 0,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      },
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 6111764,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image9.png",
+        "name": "Рисунок 4",
+        "x": 0,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      },
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 6111764,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image9.png",
+        "name": "Рисунок 4",
+        "x": 0,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 24,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      },
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 6111764,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image9.png",
+        "name": "Рисунок 4",
+        "x": 0,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 26,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      },
+      {
+        "rid": "rId5",
+        "target": "../media/image2.png",
+        "name": "Picture 4",
+        "x": 4836371,
+        "y": 6111764,
+        "cx": 2352552,
+        "cy": 806590
+      },
+      {
+        "rid": "rId7",
+        "target": "../media/image9.png",
+        "name": "Рисунок 4",
+        "x": 0,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 28,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 12",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 32,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 7",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 36,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 1",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 38,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image9.png",
+        "name": "Рисунок 6",
+        "x": 0,
+        "y": 0,
+        "cx": 544359,
+        "cy": 544359
+      }
+    ]
+  },
+  {
+    "slide": 41,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 3",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 43,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 2",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 45,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 1",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 47,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 1",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 49,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 1",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 52,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image3.png",
+        "name": "Рисунок 1",
+        "x": 6484,
+        "y": 0,
+        "cx": 537875,
+        "cy": 537875
+      }
+    ]
+  },
+  {
+    "slide": 54,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image9.png",
+        "name": "Рисунок 15",
+        "x": -1660,
+        "y": -1320,
+        "cx": 458683,
+        "cy": 458683
+      }
+    ]
+  },
+  {
+    "slide": 56,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image9.png",
+        "name": "Рисунок 15",
+        "x": -1660,
+        "y": -1320,
+        "cx": 458683,
+        "cy": 458683
+      }
+    ]
+  },
+  {
+    "slide": 62,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image9.png",
+        "name": "Рисунок 15",
+        "x": -1660,
+        "y": -1320,
+        "cx": 458683,
+        "cy": 458683
+      }
+    ]
+  },
+  {
+    "slide": 65,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image9.png",
+        "name": "Рисунок 15",
+        "x": -1660,
+        "y": -1320,
+        "cx": 458683,
+        "cy": 458683
+      }
+    ]
+  },
+  {
+    "slide": 68,
+    "pictures": [
+      {
+        "rid": "rId4",
+        "target": "../media/image9.png",
+        "name": "Рисунок 15",
+        "x": -1660,
+        "y": -1320,
+        "cx": 458683,
+        "cy": 458683
+      }
+    ]
+  }
+]
