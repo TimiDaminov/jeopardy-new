@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { ViewerStage, GameBoard, TeamScoreboard } from "./JeopardyShared";
 import { useJeopardySession } from "../lib/use-jeopardy-session";
 
-export default function JeopardyGame() {
+export default function JeopardyGame({ sessionSlug }) {
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const router = useRouter();
   const {
     teams,
     played,
@@ -37,8 +39,10 @@ export default function JeopardyGame() {
     scoreStep,
     isSessionReady,
     canControl,
+    isCreatingSession,
     openQuestion,
     resetGame,
+    createNewSession,
     revealAnswer,
     advanceViewer,
     goToPreviousStep,
@@ -48,7 +52,7 @@ export default function JeopardyGame() {
     resetQuestionTimer,
     toggleAnswerVisibility,
     awardCurrentQuestionToTeam,
-  } = useJeopardySession({ canEdit: true });
+  } = useJeopardySession({ canEdit: true, sessionSlug });
 
   function handleResetGame() {
     const confirmed = window.confirm("Начать игру заново и сбросить текущий прогресс?");
@@ -58,6 +62,22 @@ export default function JeopardyGame() {
     }
 
     resetGame();
+  }
+
+  async function handleCreateNewGame() {
+    const confirmed = window.confirm("Создать новую игровую сессию и перейти в нее?");
+
+    if (!confirmed) {
+      return;
+    }
+
+    const nextSlug = await createNewSession();
+
+    if (!nextSlug) {
+      return;
+    }
+
+    router.push(`/?session=${encodeURIComponent(nextSlug)}`);
   }
 
   useEffect(() => {
@@ -199,12 +219,22 @@ export default function JeopardyGame() {
 
           <button
             className="action-button ghost-button presentation-reset-button"
+            disabled={!canControl || isCreatingSession}
+            onClick={handleCreateNewGame}
+            type="button"
+          >
+            {isCreatingSession ? "Создание..." : "Новая игра"}
+          </button>
+
+          {/* <button
+            className="action-button ghost-button presentation-reset-button"
             disabled={!canControl}
+            hidden
             onClick={handleResetGame}
             type="button"
           >
             Начать заново
-          </button>
+          </button> */}
         </div>
       </div>
 

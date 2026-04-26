@@ -33,7 +33,7 @@ function getPlanetPresetByName(value) {
   return PLANET_TEAM_PRESETS.find((preset) => normalizePlanetName(preset.name) === normalizedValue) ?? null;
 }
 
-export default function JeopardyAdmin() {
+export default function JeopardyAdmin({ sessionSlug }) {
   const {
     teams,
     played,
@@ -61,6 +61,7 @@ export default function JeopardyAdmin() {
     totalQuestions,
     hasTeams,
     canControl,
+    remoteSessionSlug,
     canGoBack,
     canRevealAnswer,
     canAdvanceAfterAnswer,
@@ -84,11 +85,12 @@ export default function JeopardyAdmin() {
     pauseQuestionTimer,
     reduceCurrentQuestionValue,
     removeTeam,
-  } = useJeopardySession({ canEdit: true });
+  } = useJeopardySession({ canEdit: true, sessionSlug });
 
   const [teamNameDraft, setTeamNameDraft] = useState("");
   const [teamColorDraft, setTeamColorDraft] = useState(DEFAULT_TEAM_COLOR);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const viewerHref = remoteSessionSlug ? `/?session=${encodeURIComponent(remoteSessionSlug)}` : "/";
 
   useEffect(() => {
     document.body.classList.add("admin-body");
@@ -221,7 +223,7 @@ export default function JeopardyAdmin() {
         </div>
 
         <div className="admin-topbar-actions">
-          <a className="action-button ghost-button" href="/" rel="noreferrer" target="_blank">
+          <a className="action-button ghost-button" href={viewerHref} rel="noreferrer" target="_blank">
             Открыть экран
           </a>
           <button className="action-button" onClick={toggleFullscreen} type="button">
