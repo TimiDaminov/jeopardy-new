@@ -253,7 +253,6 @@ export function ViewerStage({
                 </h2>
               </div>
 
-            
 
               <div className={`special-intro-meta${isSpecialIntroMetaVisible ? " is-visible" : ""}`}>
                 <span className="special-intro-meta-chip">{currentEntry.category.title}</span>
