@@ -60,6 +60,7 @@ export default function JeopardyAdmin() {
     openedCount,
     totalQuestions,
     hasTeams,
+    canControl,
     canGoBack,
     canRevealAnswer,
     canAdvanceAfterAnswer,
@@ -83,7 +84,7 @@ export default function JeopardyAdmin() {
     pauseQuestionTimer,
     reduceCurrentQuestionValue,
     removeTeam,
-  } = useJeopardySession();
+  } = useJeopardySession({ canEdit: true });
 
   const [teamNameDraft, setTeamNameDraft] = useState("");
   const [teamColorDraft, setTeamColorDraft] = useState(DEFAULT_TEAM_COLOR);
@@ -111,7 +112,7 @@ export default function JeopardyAdmin() {
   }, []);
 
   useEffect(() => {
-    if (!currentEntry) {
+    if (!currentEntry || !canControl) {
       return undefined;
     }
 
@@ -154,6 +155,7 @@ export default function JeopardyAdmin() {
     advanceViewer,
     goToPreviousStep,
     toggleAnswerVisibility,
+    canControl,
   ]);
 
   async function toggleFullscreen() {
@@ -225,10 +227,10 @@ export default function JeopardyAdmin() {
           <button className="action-button" onClick={toggleFullscreen} type="button">
             {isFullscreen ? "Выйти из full screen" : "На весь экран"}
           </button>
-          <button className="action-button ghost-button" onClick={showBoard} type="button">
+          <button className="action-button ghost-button" disabled={!canControl} onClick={showBoard} type="button">
             К таблице
           </button>
-          <button className="action-button danger-button" onClick={handleResetGame} type="button">
+          <button className="action-button danger-button" disabled={!canControl} onClick={handleResetGame} type="button">
             Сбросить игру
           </button>
         </div>
@@ -301,7 +303,7 @@ export default function JeopardyAdmin() {
                   <div className="response-action-row">
                     <button
                       className="action-button accent-button"
-                      disabled={isSpecialIntroActive}
+                      disabled={!canControl || isSpecialIntroActive}
                       onClick={toggleQuestionTimer}
                       type="button"
                     >
@@ -313,7 +315,7 @@ export default function JeopardyAdmin() {
                     </button>
                     <button
                       className="action-button ghost-button"
-                      disabled={isSpecialIntroActive}
+                      disabled={!canControl || isSpecialIntroActive}
                       onClick={resetQuestionTimer}
                       type="button"
                     >
@@ -332,6 +334,7 @@ export default function JeopardyAdmin() {
                           <div className="team-response-row-main">
                             <button
                               className={`answering-team-button answering-team-button--row${activeTeamId === team.id ? " is-selected" : ""}`}
+                              disabled={!canControl}
                               onClick={() => selectActiveTeam(team.id)}
                               style={{ "--team-color": team.color }}
                               type="button"
@@ -349,7 +352,7 @@ export default function JeopardyAdmin() {
                           <div className="team-response-actions">
                             <button
                               className="action-button accent-button"
-                              disabled={isSpecialIntroActive}
+                              disabled={!canControl || isSpecialIntroActive}
                               onClick={() => handleQuestionScore(team.id, scoreStep)}
                               type="button"
                             >
@@ -357,7 +360,7 @@ export default function JeopardyAdmin() {
                             </button>
                             <button
                               className="action-button danger-button"
-                              disabled={isSpecialIntroActive}
+                              disabled={!canControl || isSpecialIntroActive}
                               onClick={() => handleQuestionScore(team.id, -scoreStep)}
                               type="button"
                             >
@@ -374,7 +377,7 @@ export default function JeopardyAdmin() {
                   <div className="response-action-row">
                     <button
                       className="action-button ghost-button"
-                      disabled={!activeTeamId}
+                      disabled={!canControl || !activeTeamId}
                       onClick={clearActiveTeam}
                       type="button"
                     >
@@ -385,7 +388,7 @@ export default function JeopardyAdmin() {
                   <div className="response-action-row">
                     <button
                       className="action-button ghost-button"
-                      disabled={!canGoBack}
+                      disabled={!canControl || !canGoBack}
                       onClick={goToPreviousStep}
                       type="button"
                     >
@@ -393,7 +396,7 @@ export default function JeopardyAdmin() {
                     </button>
                     <button
                       className="action-button accent-button"
-                      disabled={!canRevealAnswer}
+                      disabled={!canControl || !canRevealAnswer}
                       onClick={revealAnswer}
                       type="button"
                     >
@@ -401,7 +404,7 @@ export default function JeopardyAdmin() {
                     </button>
                     <button
                       className="action-button"
-                      disabled={!canAdvanceAfterAnswer}
+                      disabled={!canControl || !canAdvanceAfterAnswer}
                       onClick={advanceViewer}
                       type="button"
                     >
@@ -451,7 +454,7 @@ export default function JeopardyAdmin() {
               </div>
             </div>
 
-            <GameBoard current={current} interactive onSelectQuestion={openQuestion} played={played} />
+            <GameBoard current={current} interactive={canControl} onSelectQuestion={openQuestion} played={played} />
           </section>
         </main>
 
@@ -469,6 +472,7 @@ export default function JeopardyAdmin() {
             <form className="team-form" onSubmit={handleAddTeam}>
               <input
                 className="admin-input"
+                disabled={!canControl}
                 onChange={(event) => setTeamNameDraft(event.target.value)}
                 placeholder="Название команды"
                 type="text"
@@ -479,13 +483,14 @@ export default function JeopardyAdmin() {
                 <span>Цвет</span>
                 <input
                   className="color-input"
+                  disabled={!canControl}
                   onChange={(event) => setTeamColorDraft(event.target.value)}
                   type="color"
                   value={teamColorDraft}
                 />
               </label>
 
-              <button className="action-button accent-button" type="submit">
+              <button className="action-button accent-button" disabled={!canControl} type="submit">
                 Добавить
               </button>
             </form>
@@ -504,6 +509,7 @@ export default function JeopardyAdmin() {
                 {PLANET_TEAM_PRESETS.map((preset) => (
                   <button
                     className="planet-palette-card"
+                    disabled={!canControl}
                     key={preset.name}
                     onClick={() => {
                       setTeamNameDraft(preset.name);
@@ -532,6 +538,7 @@ export default function JeopardyAdmin() {
                         <span className="team-swatch" />
                         <input
                           className="admin-input team-name-input"
+                          disabled={!canControl}
                           onChange={(event) => updateTeamName(team.id, event.target.value)}
                           readOnly={isBaseTeam}
                           type="text"
@@ -540,7 +547,7 @@ export default function JeopardyAdmin() {
                       </div>
 
                       {!isBaseTeam ? (
-                        <button className="icon-button" onClick={() => removeTeam(team.id)} type="button">
+                        <button className="icon-button" disabled={!canControl} onClick={() => removeTeam(team.id)} type="button">
                         Удалить
                         </button>
                       ) : null}
@@ -551,6 +558,7 @@ export default function JeopardyAdmin() {
                         <span>Цвет</span>
                         <input
                           className="color-input"
+                          disabled={!canControl}
                           onChange={(event) => updateTeamColor(team.id, event.target.value)}
                           type="color"
                           value={team.color}
@@ -566,6 +574,7 @@ export default function JeopardyAdmin() {
                     <div className="team-score-actions">
                       <button
                         className="action-button ghost-button"
+                        disabled={!canControl}
                         onClick={() => changeTeamScore(team.id, -MANUAL_SCORE_STEP)}
                         type="button"
                       >
@@ -573,6 +582,7 @@ export default function JeopardyAdmin() {
                       </button>
                       <button
                         className="action-button"
+                        disabled={!canControl}
                         onClick={() => changeTeamScore(team.id, MANUAL_SCORE_STEP)}
                         type="button"
                       >

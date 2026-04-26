@@ -942,6 +942,17 @@ button.question-card:hover {
   min-width: 180px;
 }
 
+.viewer-stage-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.viewer-stage-controls .action-button {
+  min-width: 180px;
+}
+
 .stage-timer,
 .stage-answering-team {
   display: inline-flex;

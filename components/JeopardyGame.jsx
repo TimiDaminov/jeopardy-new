@@ -29,11 +29,14 @@ export default function JeopardyGame() {
     isImmersiveAnswerView,
     answerIndex,
     slideCount,
+    canGoBack,
     canRevealAnswer,
     canAdvanceAfterAnswer,
     isTimerRunning,
     timerSecondsLeft,
     scoreStep,
+    isSessionReady,
+    canControl,
     openQuestion,
     resetGame,
     revealAnswer,
@@ -45,7 +48,7 @@ export default function JeopardyGame() {
     resetQuestionTimer,
     toggleAnswerVisibility,
     awardCurrentQuestionToTeam,
-  } = useJeopardySession();
+  } = useJeopardySession({ canEdit: true });
 
   function handleResetGame() {
     const confirmed = window.confirm("Начать игру заново и сбросить текущий прогресс?");
@@ -83,7 +86,7 @@ export default function JeopardyGame() {
   }
 
   useEffect(() => {
-    if (!currentEntry) {
+    if (!currentEntry || !canControl) {
       return undefined;
     }
 
@@ -126,6 +129,7 @@ export default function JeopardyGame() {
     advanceViewer,
     goToPreviousStep,
     toggleAnswerVisibility,
+    canControl,
   ]);
 
   const slideCounter = answerShown ? `${currentStep - answerIndex + 1} из ${slideCount - answerIndex}` : null;
@@ -137,6 +141,8 @@ export default function JeopardyGame() {
       <div className="presentation-topbar">
         {isSpecialIntroActive ? (
           <div className="presentation-award-hint">Кот в мешке: выберите команду</div>
+        ) : !isSessionReady ? (
+          <div className="presentation-award-hint">Syncing session...</div>
         ) : answerShown && hasTeams ? (
           <div className="presentation-award-hint">
             {awardedTeamId
@@ -181,12 +187,22 @@ export default function JeopardyGame() {
           </button>
 
           {currentEntry ? (
-            <button className="action-button ghost-button presentation-reset-button" onClick={showBoard} type="button">
+            <button
+              className="action-button ghost-button presentation-reset-button"
+              disabled={!canControl}
+              onClick={showBoard}
+              type="button"
+            >
               К таблице
             </button>
           ) : null}
 
-          <button className="action-button ghost-button presentation-reset-button" onClick={handleResetGame} type="button">
+          <button
+            className="action-button ghost-button presentation-reset-button"
+            disabled={!canControl}
+            onClick={handleResetGame}
+            type="button"
+          >
             Начать заново
           </button>
         </div>
@@ -197,7 +213,7 @@ export default function JeopardyGame() {
         activeTeamLabel={isSpecialIntroActive ? "Получает вопрос" : "Отвечает"}
         awardedTeamId={awardedTeamId}
         awardValue={answerShown ? awardedScoreValue ?? scoreStep : null}
-        interactive={answerShown}
+        interactive={answerShown && canControl}
         onSelectTeam={awardCurrentQuestionToTeam}
         teams={teams}
       />
@@ -216,11 +232,16 @@ export default function JeopardyGame() {
               currentSlidePath={currentSlidePath}
               currentStep={currentStep}
               disabledChoices={disabledChoices}
-              onSelectChoice={selectChoice}
+              onSelectChoice={canControl ? selectChoice : undefined}
               questionControls={
-                isQuestionView ? (
+                isQuestionView && canControl ? (
                   <>
-                    <button className="action-button accent-button" onClick={toggleQuestionTimer} type="button">
+                    <button
+                      className="action-button accent-button"
+                      disabled={!canControl}
+                      onClick={toggleQuestionTimer}
+                      type="button"
+                    >
                       {isTimerRunning
                         ? "Пауза"
                         : timerSecondsLeft === 30
@@ -228,13 +249,18 @@ export default function JeopardyGame() {
                           : "Продолжить таймер"}
                     </button>
 
-                    <button className="action-button ghost-button" onClick={resetQuestionTimer} type="button">
+                    <button
+                      className="action-button ghost-button"
+                      disabled={!canControl}
+                      onClick={resetQuestionTimer}
+                      type="button"
+                    >
                       Сбросить таймер
                     </button>
 
                     <button
                       className="action-button"
-                      disabled={!canRevealAnswer}
+                      disabled={!canControl || !canRevealAnswer}
                       onClick={revealAnswer}
                       type="button"
                     >
@@ -251,10 +277,32 @@ export default function JeopardyGame() {
               timerLabel={timerLabel}
               timerStatusClass={timerStatusClass}
             />
+
+            {canControl && answerShown ? (
+              <div className="viewer-stage-controls">
+                <button
+                  className="action-button ghost-button"
+                  disabled={!canGoBack}
+                  onClick={goToPreviousStep}
+                  type="button"
+                >
+                  РќР°Р·Р°Рґ
+                </button>
+
+                <button
+                  className="action-button"
+                  disabled={!canAdvanceAfterAnswer}
+                  onClick={advanceViewer}
+                  type="button"
+                >
+                  {currentStep >= slideCount - 1 ? "РџРѕСЃР»РµРґРЅРёР№ СЃР»Р°Р№Рґ" : "РЎР»РµРґСѓСЋС‰РёР№ СЃР»Р°Р№Рґ"}
+                </button>
+              </div>
+            ) : null}
           </section>
         ) : (
           <section className="board-view">
-            <GameBoard current={current} interactive onSelectQuestion={openQuestion} played={played} />
+            <GameBoard current={current} interactive={canControl} onSelectQuestion={openQuestion} played={played} />
           </section>
         )}
       </main>

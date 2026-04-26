@@ -4,7 +4,8 @@ create table if not exists public.jeopardy_sessions (
   id uuid primary key default gen_random_uuid(),
   slug text not null unique default 'default',
   session jsonb not null default '{}'::jsonb,
-  teams jsonb not null default '[{"id":"team-mercury","name":"Меркурий","color":"#B7B7B7","score":0},{"id":"team-mars","name":"Марс","color":"#C34A36","score":0},{"id":"team-jupiter","name":"Юпитер","color":"#D39C6A","score":0},{"id":"team-saturn","name":"Сатурн","color":"#D8C37A","score":0},{"id":"team-uranus","name":"Уран","color":"#7AD8E8","score":0},{"id":"team-neptune","name":"Нептун","color":"#426DFF","score":0}]'::jsonb,
+  teams jsonb not null default '[{"id":"team-mercury","name":"РњРµСЂРєСѓСЂРёР№","color":"#B7B7B7","score":0},{"id":"team-mars","name":"РњР°СЂСЃ","color":"#C34A36","score":0},{"id":"team-jupiter","name":"Р®РїРёС‚РµСЂ","color":"#D39C6A","score":0},{"id":"team-saturn","name":"РЎР°С‚СѓСЂРЅ","color":"#D8C37A","score":0},{"id":"team-uranus","name":"РЈСЂР°РЅ","color":"#7AD8E8","score":0},{"id":"team-neptune","name":"РќРµРїС‚СѓРЅ","color":"#426DFF","score":0}]'::jsonb,
+  version bigint not null default 0,
   updated_by text,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
@@ -13,7 +14,14 @@ create table if not exists public.jeopardy_sessions (
 );
 
 alter table public.jeopardy_sessions
-alter column teams set default '[{"id":"team-mercury","name":"Меркурий","color":"#B7B7B7","score":0},{"id":"team-mars","name":"Марс","color":"#C34A36","score":0},{"id":"team-jupiter","name":"Юпитер","color":"#D39C6A","score":0},{"id":"team-saturn","name":"Сатурн","color":"#D8C37A","score":0},{"id":"team-uranus","name":"Уран","color":"#7AD8E8","score":0},{"id":"team-neptune","name":"Нептун","color":"#426DFF","score":0}]'::jsonb;
+alter column teams set default '[{"id":"team-mercury","name":"РњРµСЂРєСѓСЂРёР№","color":"#B7B7B7","score":0},{"id":"team-mars","name":"РњР°СЂСЃ","color":"#C34A36","score":0},{"id":"team-jupiter","name":"Р®РїРёС‚РµСЂ","color":"#D39C6A","score":0},{"id":"team-saturn","name":"РЎР°С‚СѓСЂРЅ","color":"#D8C37A","score":0},{"id":"team-uranus","name":"РЈСЂР°РЅ","color":"#7AD8E8","score":0},{"id":"team-neptune","name":"РќРµРїС‚СѓРЅ","color":"#426DFF","score":0}]'::jsonb;
+
+alter table public.jeopardy_sessions
+add column if not exists version bigint not null default 0;
+
+update public.jeopardy_sessions
+set version = 0
+where version is null;
 
 create or replace function public.set_updated_at()
 returns trigger
@@ -76,14 +84,16 @@ begin
 end;
 $$;
 
-insert into public.jeopardy_sessions (slug, session, teams, updated_by)
+insert into public.jeopardy_sessions (slug, session, teams, version, updated_by)
 values (
   'default',
   '{}'::jsonb,
-  '[{"id":"team-mercury","name":"Меркурий","color":"#B7B7B7","score":0},{"id":"team-mars","name":"Марс","color":"#C34A36","score":0},{"id":"team-jupiter","name":"Юпитер","color":"#D39C6A","score":0},{"id":"team-saturn","name":"Сатурн","color":"#D8C37A","score":0},{"id":"team-uranus","name":"Уран","color":"#7AD8E8","score":0},{"id":"team-neptune","name":"Нептун","color":"#426DFF","score":0}]'::jsonb,
-  'sql-seed'ещ
+  '[{"id":"team-mercury","name":"РњРµСЂРєСѓСЂРёР№","color":"#B7B7B7","score":0},{"id":"team-mars","name":"РњР°СЂСЃ","color":"#C34A36","score":0},{"id":"team-jupiter","name":"Р®РїРёС‚РµСЂ","color":"#D39C6A","score":0},{"id":"team-saturn","name":"РЎР°С‚СѓСЂРЅ","color":"#D8C37A","score":0},{"id":"team-uranus","name":"РЈСЂР°РЅ","color":"#7AD8E8","score":0},{"id":"team-neptune","name":"РќРµРїС‚СѓРЅ","color":"#426DFF","score":0}]'::jsonb,
+  0,
+  'sql-seed'
 )
 on conflict (slug) do update
 set teams = excluded.teams,
+    version = excluded.version,
     updated_by = excluded.updated_by
 where public.jeopardy_sessions.teams = '[]'::jsonb;
