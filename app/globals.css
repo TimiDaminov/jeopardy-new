@@ -1037,7 +1037,7 @@ button.question-card:hover {
 }
 
 .slide-frame.is-contained-slide {
-  padding: 16px;
+  padding: 0px;
 }
 
 .slide-frame.is-immersive-slide {

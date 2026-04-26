@@ -264,7 +264,7 @@ export default function JeopardyGame({ sessionSlug }) {
               disabledChoices={disabledChoices}
               onSelectChoice={canControl ? selectChoice : undefined}
               questionControls={
-                isQuestionView && canControl ? (
+                true ? (
                   <>
                     <button
                       className="action-button accent-button"
