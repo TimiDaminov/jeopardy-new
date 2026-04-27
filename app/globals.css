@@ -74,7 +74,7 @@ input {
 
 .presentation-shell.has-immersive-view {
   width: min(1880px, 100%);
-  padding-top: 12px;
+  padding-top: 0;
 }
 
 .admin-shell {
@@ -464,7 +464,7 @@ button.question-card:hover {
 }
 
 .viewer-view.is-immersive-view {
-  padding: 12px;
+  padding: 0 12px 12px;
   background: rgba(5, 5, 5, 0.96);
 }
 
@@ -1043,7 +1043,7 @@ button.question-card:hover {
 .slide-frame.is-immersive-slide {
   height: 100%;
   border: none;
-  padding: 2px 22px 40px;
+  padding: 0 22px 40px;
   background: transparent;
 }
 
@@ -1076,6 +1076,7 @@ button.question-card:hover {
 
 .slide-frame.is-immersive-slide .slide-image {
   border-radius: 22px;
+  object-position: top center;
 }
 
 .slide-fallback {
