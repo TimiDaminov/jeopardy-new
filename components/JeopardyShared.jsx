@@ -269,9 +269,11 @@ export function ViewerStage({
                 )}
               </div>
 
-              <div className={`special-intro-prompt${isSpecialIntroReady ? " is-visible" : ""}`}>
-                {activeTeam ? "Нажмите пробел, чтобы открыть вопрос" : "Выберите команду, которой уходит вопрос"}
-              </div>
+              {activeTeam ? (
+                <div className={`special-intro-prompt${isSpecialIntroReady ? " is-visible" : ""}`}>
+                  Нажмите пробел, чтобы открыть вопрос
+                </div>
+              ) : null}
             </div>
           </div>
         ) : isQuestionView ? (
